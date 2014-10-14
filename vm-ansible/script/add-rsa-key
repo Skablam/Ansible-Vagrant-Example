@@ -1,0 +1,2 @@
+ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -N ""
+ssh-copy-id 172.16.32.33

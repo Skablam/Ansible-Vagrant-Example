@@ -1,0 +1,6 @@
+echo 'cd /vagrant' >> /home/vagrant/.bash_profile
+
+echo "update and install ansible!"
+
+apt-get update
+apt-get -y install ansible
