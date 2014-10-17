@@ -34,10 +34,8 @@ source ./script/add-rsa-key
 We also need to tell Ansible which server it has access to, which we do via the inventory file found at /etc/ansible/hosts. Copy the following text to /etc/ansible/hosts:
 
 <pre>
-
 [southwest]
 172.16.32.33
-
 </pre>
 
 Now we can run Ansible commands in the Ansible vm i.e. ansible all -m ping. Or you can run one of the playbooks found in the playbooks folder e.g.
